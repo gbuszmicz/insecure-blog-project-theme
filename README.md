@@ -5,10 +5,10 @@ The port was created for the "Insecure Blog Project" Web app, which is a securit
 
 ### Screenshots
 <p align="center">
-  <img src ="https://github.com/gbuszmicz/insecure-blog-project-theme/tree/master/img/theme-captures/index.png" />
+  ![ScreenShot](https://raw.github.com/gbuszmicz/insecure-blog-project-theme/tree/master/img/theme-captures/index.png)
 </p>
 <p align="center">
-  <img src ="https://github.com/gbuszmicz/insecure-blog-project-theme/tree/master/img/theme-captures/index2.png" />
+  ![ScreenShot](https://github.com/gbuszmicz/insecure-blog-project-theme/tree/master/img/theme-captures/index2.png)
 </p>
 <p align="center">
   <img src ="https://github.com/gbuszmicz/insecure-blog-project-theme/tree/master/img/theme-captures/single-post.png" />
