@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Insecure Blog | Login</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700' rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/clean.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body class="login">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="post.html">Sample Post</a>
+            </li>
+            <li class="active">
+              <a href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+
+          <fieldset id="login">
+            <h1>Login form</h1>
+            <div class="message"></div>
+            <form method="POST" data-async action="#">
+              <p>
+                <input type="text" id="username" name="username" class="form-control" required 
+                  placeholder="Enter your username" />
+              </p>
+              <p>
+                <input type="password" id="password" name="password" class="form-control" required 
+                  placeholder="Enter your password" />
+              </p>
+              <p class="submit">
+                <input type="submit" value="Let me in">
+              </p>
+            </form>
+          </fieldset>
+
+       </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+              <li>
+                Made in ARG by 
+                <a href="https://twitter.com/gbuszmicz" target="_blank">@gbuszmicz</a>
+              </li>
+              <li class="mid-dot-divider hidden-xs"></li>
+              <li>
+                Get in touch on Twitter
+                <a href="https://twitter.com/gbuszmicz" target="_blank">@insecureBlog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-3.3.6.min.js"></script>
+  </body>
+</html>
