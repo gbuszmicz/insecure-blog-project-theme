@@ -8,16 +8,123 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Insecure Blog | HTML + CSS bootstrap template</title>
+    <title>Insecure Blog | Gonzalo F. Buszmicz profile</title>
 
     <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700' rel='stylesheet' type='text/css' />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class="user-posts">
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Home</a>
+        </div>
 
-    <h1>Nothing here yet</h1>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="post.html">Sample Post</a>
+            </li>
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="profile-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="profile-heading">
+              <a href="user.html" class="img-responsive">
+                <img src="img/gfb_avatar.jpg" class="img-circle" width="174" alt="User profile picture" />
+              </a>
+              <h1>Gonzalo F. Buszmicz</h1>
+              <span class="profile-description">Here goes my biography and description. Whatever I want people to know about myself. I can put some links here with my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> account or Facebook, Twitter or whatever</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+          <article id="post-1" class="post status-published">
+            <section class="post-header">
+              <div class="post-author">
+                <a href="user.html">
+                  <div class="avatar">
+                    <span class="ratio img-responsive img-circle" alt="Author avatar"
+                      style="background-image: url(img/gfb_avatar.jpg);">
+                    </span>
+                  </div>
+                </a>
+                <div class="author-name">
+                  <a href="user.html">Gonzalo F. Buszmicz</a>
+                </div>
+              </div>
+
+              <div class="post-meta">
+                <span class="post-date">4 days ago</span>
+                <span class="mid-dot-divider"></span>
+                <span class="read-time">11 min read</span>
+              </div>
+
+              <h1 class="post-title">
+                <a href="post.html" rel="bookmark">Welcome to Insecure Blog Project</a>
+              </h1>
+            </section>
+
+            <section class="post-content">
+              <p>
+                This is <i>Insecure Blog Project</i>, a port of the gorgeous default theme from the <a href="https://ghost.org/" target="_blank">Ghost</a> blogging platform to a simple <strong>bootstrap html + css template</strong>. This is a short demonstration of the features. It was written for being used in the new Insecure blog project app, which is a javascript coded Web app for security demos, training and presentations.
+                This template is also based on <a href="http://lacymorrow.com/projects/casper/" target="_blank">Casper</a> by Lacy Morrow, on <a href="https://demo.kkthemes.com/fastr/" target="_blank">Fastr</a> by Kanishk Kunal and also on <a href="http://blackrockdigital.github.io/startbootstrap-clean-blog/index.html" target="_blank">Clean Blog</a> by Start Bootstrap
+                <a href="post.html" class="more-link">…&nbsp;<span class="meta-nav">→</span></a>
+              </p>
+            </section>
+
+            <section class="post-footer">
+              <span class="post-tags">
+                <a href="post.html" class="tag-link">#about</a>
+                <a href="post.html" class="tag-link">#insecure</a>
+                <a href="post.html" class="tag-link">#blog</a>
+                <a href="post.html" class="tag-link">#project</a>
+              </span>
+            </section>
+          </article>
+
+          <!-- Pager -->
+          <nav>
+            <ul class="pager">
+              <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+              <li class="page-counter">Page <span>1</span> of <span>2</span></li>
+              <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+            </ul>
+          </nav>
+          
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer>

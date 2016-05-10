@@ -5,23 +5,33 @@ The port was created for the "Insecure Blog Project" Web app, which is a securit
 
 ### Screenshots
 #### Index screen
+This is the index screen, where all the posts are. Here you can find posts from all the users
 <p align="center">
-  <img src ="https://raw.githubusercontent.com/gbuszmicz/insecure-blog-project-theme/master/img/theme-captures/index.png" />
+  <img src ="https://raw.githubusercontent.com/gbuszmicz/insecure-blog-project-theme/master/img/theme-captures/index.png" width="512" />
 </p>
 
 #### More index screen
+More of the index
 <p align="center">
-  <img src ="https://raw.githubusercontent.com/gbuszmicz/insecure-blog-project-theme/master/img/theme-captures/index2.png" />
+  <img src ="https://raw.githubusercontent.com/gbuszmicz/insecure-blog-project-theme/master/img/theme-captures/index2.png" width="512" />
 </p>
 
 #### Single post screen
+This is the single post screen. You get here when you enter a single post.
 <p align="center">
-  <img src ="https://raw.githubusercontent.com/gbuszmicz/insecure-blog-project-theme/master/img/theme-captures/single-post.png" />
+  <img src ="https://raw.githubusercontent.com/gbuszmicz/insecure-blog-project-theme/master/img/theme-captures/single-post.png" width="512" />
+</p>
+
+#### User profile page screen
+This is the user profile screen. Here you will find all user's posts.
+<p align="center">
+  <img src ="https://raw.githubusercontent.com/gbuszmicz/insecure-blog-project-theme/master/img/theme-captures/user.png" width="512" />
 </p>
 
 #### Login screen
+The login screen. Simple and clean.
 <p align="center">
-  <img src ="https://raw.githubusercontent.com/gbuszmicz/insecure-blog-project-theme/master/img/theme-captures/login.png" />
+  <img src ="https://raw.githubusercontent.com/gbuszmicz/insecure-blog-project-theme/master/img/theme-captures/login.png" width="512" />
 </p>
 
 
