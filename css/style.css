@@ -262,7 +262,7 @@ body {
   }
 }
 .intro-header .site-heading .site-logo img {
-  max-height: 200px;
+  /*max-height: 200px;*/
 }
 
 article {
