@@ -36,4 +36,4 @@ The login screen. Simple and clean.
 
 
 ### Comments and issues
-Feel free to contact me in [twitter](https://twitter.com/gbuszmicz) or [create an issue](https://github.com/gbuszmicz/insecure-blog-project-theme/issues/new)
+Feel free to contact me on [twitter](https://twitter.com/gbuszmicz) or [create an issue](https://github.com/gbuszmicz/insecure-blog-project-theme/issues/new)
